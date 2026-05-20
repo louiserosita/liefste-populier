@@ -1,0 +1,74 @@
+body {
+    background-image: url("mijnboom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* basis video stijl */
+.v {
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    animation: drift 14s ease-in-out infinite;
+}
+
+@keyframes drift {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    25% {
+        transform: translate(60vw, -20vh);
+    }
+    50% {
+        transform: translate(-40vw, 40vh);
+    }
+    75% {
+        transform: translate(30vw, 70vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh);
+    }
+}
+
+.v {
+    opacity: 0.85;
+}
+
+/* verspreiding over de pagina */
+.v1 { top: 20px; left: 30px; }
+.v2 { top: 80px; left: 300px; }
+.v3 { top: 150px; left: 600px; }
+.v4 { top: 250px; left: 100px; }
+.v5 { top: 300px; left: 450px; }
+
+.v6 { top: 50px; left: 800px; }
+.v7 { top: 400px; left: 200px; }
+.v8 { top: 420px; left: 700px; }
+.v9 { top: 500px; left: 50px; }
+.v10 { top: 550px; left: 350px; }
+
+.v11 { top: 600px; left: 650px; }
+.v12 { top: 120px; left: 950px; }
+.v13 { top: 220px; left: 1100px; }
+.v14 { top: 350px; left: 900px; }
+.v15 { top: 500px; left: 1000px; }
+
+.v1 { animation-duration: 30s; animation-delay: -2s; }
+.v2 { animation-duration: 28s; animation-delay: -6s; }
+.v3 { animation-duration: 32s; animation-delay: -4s; }
+.v4 { animation-duration: 35s; animation-delay: -8s; }
+.v5 { animation-duration: 27s; animation-delay: -3s; }
+
+.v6 { animation-duration: 29s; animation-delay: -7s; }
+.v7 { animation-duration: 26s; animation-delay: -5s; }
+.v8 { animation-duration: 31s; animation-delay: -9s; }
+.v9 { animation-duration: 30s; animation-delay: -1s; }
+.v10 { animation-duration: 32s; animation-delay: -6s; }
+
+.v11 { animation-duration: 33s; animation-delay: -4s; }
+.v12 { animation-duration: 31s; animation-delay: -10s; }
+.v13 { animation-duration: 29s; animation-delay: -2s; }
+.v14 { animation-duration: 28s; animation-delay: -8s; }
+.v15 { animation-duration: 33s; animation-delay: -5s; }
